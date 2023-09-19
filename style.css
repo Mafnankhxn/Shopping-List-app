@@ -1,0 +1,110 @@
+/* Reset some default styles */
+body, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color for the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    min-height: 100vh;
+}
+
+/* Style the title */
+.title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.title h1 {
+    color: #333;
+    font-size: 24px;
+}
+
+/* Style the input and button */
+.input-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    font-size: 16px;
+    margin-right: 10px;
+    width: 40%;
+}
+
+.add {
+    background-color: #007bff; /* Blue */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 16px;
+}
+
+.add:hover {
+    background-color: #0056b3; /* Darker Blue on hover */
+}
+
+/* Style the list container */
+.list {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 40%;
+    text-align: left;
+}
+
+/* Style the list items */
+.itemList {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+.itemList li {
+    margin-bottom: 5px;
+    font-size: 18px;
+    color: #333;
+}
+
+/* Style the clear button */
+.remove {
+    background-color: #ff4d4d; /* Red */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+    font-size: 16px;
+}
+
+.remove:hover {
+    background-color: #ff3333; /* Darker Red on hover */
+}
+/* External CSS file or style block */
+/* External CSS file or style block */
+.custom-button {
+    background-color: red;
+    color: white;
+    padding: 5px 10px; /* Add padding to create space around the button text */
+    margin-right: 10px; /* Add margin to separate the button from text */
+    border: none; /* Remove the button border, if desired */
+    cursor: pointer; /* Change cursor on hover, if desired */
+  }
+  
+  
